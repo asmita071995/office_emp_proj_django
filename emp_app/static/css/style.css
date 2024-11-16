@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb; /* Soft light background for the page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styling */
+.container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px; /* Rounded corners for a smooth look */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue-gray color */
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Horizontal rule with modern style */
+hr {
+    border: 0;
+    border-top: 2px solid #f1f1f1; /* Subtle line */
+    margin: 30px 0; /* Space above and below the line */
+}
+
+/* Styling buttons */
+.btn {
+    margin: 12px 10px; /* Equal spacing between buttons */
+    font-size: 18px; /* Larger text for easy reading */
+    font-weight: 600;
+    padding: 12px 25px; /* More padding for better size */
+    border-radius: 8px; /* Smooth button corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+/* Primary button styling */
+a.btn-primary {
+    background-color: #3498db; /* Soft blue color */
+    border: 1px solid #3498db;
+    color: white;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+}
+
+a.btn-primary:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    border-color: #298

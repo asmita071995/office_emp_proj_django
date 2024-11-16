@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f5ff; /* Light blue background for a fresh look */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styling */
+.container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue-gray color */
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Horizontal rule */
+hr {
+    border: 0;
+    border-top: 3px solid #3498db; /* Blue line */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 600;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none;
+}
+
+/* Button styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #3498db; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+/* Button focus effect */
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.4); /* Soft blue glow */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    button[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

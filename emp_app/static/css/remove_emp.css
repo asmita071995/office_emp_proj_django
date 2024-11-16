@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc; /* Light background for the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styling */
+.container {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #ffffff; /* White background for the content area */
+    border-radius: 12px; /* Rounded corners for the content container */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue-gray color */
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Horizontal rule */
+hr {
+    border: 0;
+    border-top: 3px solid #3498db; /* Blue line for elegance */
+    margin: 20px 0; /* Spacing above and below the line */
+}
+
+/* Dropdown button styling */
+.dropdown-toggle {
+    width: 100%; /* Make the dropdown button span full width */
+    padding: 15px;
+    font-size: 18px;
+    background-color: #3498db; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.dropdown-item {
+    font-size: 18px;
+    padding: 12px;
+    color: #333; /* Dark text color for items */
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Light gray hover effect */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .dropdown-toggle {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .dropdown-item {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
